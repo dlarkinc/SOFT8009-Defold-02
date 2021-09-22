@@ -198,6 +198,29 @@ embedded_instances {
   "    w: 1.0\n"
   "  }\n"
   "}\n"
+  "embedded_components {\n"
+  "  id: \"sound\"\n"
+  "  type: \"sound\"\n"
+  "  data: \"sound: \\\"/assets/168664__toam__chorus01-longtrack.ogg\\\"\\n"
+  "looping: 1\\n"
+  "group: \\\"master\\\"\\n"
+  "gain: 1.0\\n"
+  "pan: 0.0\\n"
+  "speed: 1.0\\n"
+  "loopcount: 0\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
   ""
   position {
     x: 36.0
@@ -219,7 +242,7 @@ embedded_instances {
 embedded_instances {
   id: "foreground"
   data: "embedded_components {\n"
-  "  id: \"sprite\"\n"
+  "  id: \"bush-large\"\n"
   "  type: \"sprite\"\n"
   "  data: \"tile_set: \\\"/main/bgAtlas.atlas\\\"\\n"
   "default_animation: \\\"bush-large\\\"\\n"
@@ -282,6 +305,91 @@ embedded_instances {
   position {
     x: 0.0
     y: -45.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "burningBush"
+  data: "components {\n"
+  "  id: \"smokeParticle\"\n"
+  "  component: \"/main/smokeParticle.particlefx\"\n"
+  "  position {\n"
+  "    x: 47.0\n"
+  "    y: -76.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  "components {\n"
+  "  id: \"fireParticle\"\n"
+  "  component: \"/main/fireParticle.particlefx\"\n"
+  "  position {\n"
+  "    x: 47.0\n"
+  "    y: -89.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  "components {\n"
+  "  id: \"burningBush\"\n"
+  "  component: \"/main/burningBush.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"bush\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/main/bgAtlas.atlas\\\"\\n"
+  "default_animation: \\\"bush-small\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 46.0\n"
+  "    y: -94.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 0.0
+    y: 0.0
     z: 0.0
   }
   rotation {

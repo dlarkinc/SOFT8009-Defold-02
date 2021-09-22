@@ -1,0 +1,4 @@
+function init(self)
+	particlefx.play("#fireParticle")
+	particlefx.play("#smokeParticle")
+end

@@ -5,6 +5,7 @@ function init(self)
 	self.visible = true
 	msg.post("#sprite", "play_animation", { id=hash("idle") })
 	self.speed = vmath.vector3()
+	particlefx.play("#playerParticle")
 end
 
 function update(self, dt)

@@ -10,6 +10,10 @@ key_trigger {
   input: KEY_V
   action: "TOGGLE_VISIBILITY"
 }
+key_trigger {
+  input: KEY_ESC
+  action: "PAUSE_MENU"
+}
 mouse_trigger {
   input: MOUSE_BUTTON_LEFT
   action: "touch"

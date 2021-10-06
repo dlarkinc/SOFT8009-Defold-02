@@ -1,7 +1,7 @@
 name: "default"
 scale_along_z: 0
 embedded_instances {
-  id: "gui"
+  id: "go"
   data: "components {\n"
   "  id: \"mainmenu\"\n"
   "  component: \"/mainmenu/mainmenu.gui\"\n"

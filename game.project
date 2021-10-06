@@ -3,7 +3,7 @@ title = Desktop game
 dependencies#0 = https://github.com/rgrams/rendercam/archive/v1.0.1.zip
 
 [bootstrap]
-main_collection = /main/main.collectionc
+main_collection = /mainmenu/mainmenu.collectionc
 render = /rendercam/rendercam.renderc
 
 [input]
